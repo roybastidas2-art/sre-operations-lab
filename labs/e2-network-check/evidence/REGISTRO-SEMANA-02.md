@@ -18,7 +18,7 @@ en 127.0.0.1:8088.
 
 Comando ejecutado:
 
-```bash
+```
 bash scripts/validar.sh
 ```
 
@@ -192,18 +192,10 @@ un resultado satisfactorio de una condición de error.
 Las ejecuciones originales generaron registros JSONL locales
 en `results/checks.jsonl`.
 
-Este documento resume los resultados observados sin modificar
-los registros originales.
-
-La publicación en GitHub y su commit quedan pendientes de
-verificación final.
-
 ## 7. Revisión previa a publicación
 
 - [x] Suite automatizada ejecutada.
 - [x] Cinco escenarios manuales ejecutados.
 - [x] Resultados consolidados a partir de salidas reales.
 - [x] Limitaciones del verificador documentadas.
-- [ ] Reglas de .gitignore verificadas.
-- [ ] Archivos preparados para commit revisados.
-- [ ] Commit y publicación en GitHub confirmados.
+- [x] Reglas de .gitignore verificadas.
